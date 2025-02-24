@@ -1,0 +1,17 @@
+trading-app
+│── backend  (Spring Boot)
+│   ├── src/main/java/com/tradingapp
+│   │   ├── TradingAppApplication.java  <-- Main Spring Boot App
+│   │   ├── controller
+│   │   │   ├── TradeController.java  <-- REST API for trade logs
+│   │   ├── model
+│   │   │   ├── Trade.java  <-- Trade entity (stock trade logs)
+│   │   ├── repository
+│   │   │   ├── TradeRepository.java  <-- JPA Repository for DB
+│   │   ├── service
+│   │   │   ├── TradeService.java  <-- Business logic for trade logs
+│   ├── src/main/resources
+│   │   ├── application.properties  <-- Configuration (H2 database)
+│   ├── pom.xml  <-- Maven Dependencies
+│   ├── package.json  <-- Dependencies
+│── README.md

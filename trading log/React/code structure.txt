@@ -1,0 +1,12 @@
+│── /frontend  (React - JavaScript)
+│    ├── /src
+│    │    ├── /components
+│    │    │    ├── TradeForm.js
+│    │    │    ├── TradeList.js
+│    │    │    ├── TradeItem.js  <-- (NEW) Handles individual trade actions
+│    │    ├── /pages
+│    │    │    ├── Home.js
+│    │    ├── App.js
+│    │    ├── index.js
+│    ├── package.json
+│── README.md
